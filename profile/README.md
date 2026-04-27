@@ -1,54 +1,51 @@
-# Laboratorios Integrados de Medicina Especializada (UT LIME)
+# Repositorio de Proyectos de Software - LIME
 
 ![LIME - Universidad de Antioquia - Hospital Alma Máter](../assets/Logos-PDF-white.png)
 
-LIME (Laboratorios Integrados de Medicina Especializada) surge de la unión entre la **Universidad de Antioquia** y el **Hospital Alma Máter**, consolidando décadas de investigación aplicada para ofrecer diagnósticos innovadores y personalizados.
+Este repositorio `.github` concentra la visión, organización y lineamientos del ecosistema de desarrollo de software de LIME.
 
-Como empresa universitaria de base científica y tecnológica, LIME desarrolla productos y servicios orientados a mejorar la atención en salud, especialmente en enfermedades:
+El enfoque de este perfil es técnico: mostrar cómo se estructuran los proyectos, cómo evolucionan y cómo se coordinan entre equipos.
 
-- Raras
-- Crónicas
-- Infecciosas
-- Oncológicas
+## Qué representa este repositorio
 
-Además, apoya a las industrias farmacéutica, alimentaria y nutricional mediante:
+Este espacio funciona como punto de referencia para:
 
-- Analítica de datos
-- Ensayos clínicos
-- Validación de estándares internacionales
+- Alinear iniciativas de producto y plataforma
+- Organizar proyectos por dominios funcionales
+- Mantener estándares de arquitectura y calidad
+- Dar visibilidad al roadmap de módulos activos y futuros
 
-## Enfoque de este repositorio
+## Portafolio de proyectos de software
 
-Este repositorio centraliza iniciativas de **desarrollo de software** que soportan la operación clínica, diagnóstica, administrativa y de innovación de LIME.
+### Sistemas de Laboratorio
 
-El objetivo es habilitar una arquitectura modular que permita:
+- **Pathsys**
+- **Dermopat**
+- **Enterprises**
 
-- Escalar productos digitales por dominio
-- Integrar procesos de laboratorio y gestión
-- Fortalecer trazabilidad, calidad y oportunidad del dato
-- Acelerar el despliegue de nuevos servicios de salud digital
+### Sistemas Administrativos
 
-## Capacidad diagnóstica y respuesta en Covid-19
+- **Biotech**
+- **Billmed**
+- **Calendary**
+- **LivingLab**
 
-LIME ha mantenido disponibilidad operativa para atender la demanda de pruebas de Covid-19, incluyendo:
+### Proyectos Especiales
 
-- Pruebas de antígeno
-- PCR cuantitativa
-- PCR LAMP (resultados rápidos en alrededor de 15 minutos)
+- **Symphony**
+- **PDET**
+- **ContigoAntioquia**
 
-Según el tipo de prueba y la demanda operativa, los resultados se entregan en tiempos que pueden ir desde **15 minutos hasta 2 días**.
+## Enfoque de ingeniería
 
-## Contacto y agendamiento
+Los proyectos se gestionan bajo principios de producto y plataforma:
 
-- **WhatsApp LIME:** 304 326 3106
-- **Sede principal de toma de muestras:** segundo piso de la IPS Universitaria Ambulatoria en Prado
-- **Modalidad adicional:** toma de muestra con visita domiciliaria (previa agenda)
+- Modularidad por dominios
+- Integración entre sistemas
+- Trazabilidad funcional y técnica
+- Escalabilidad para nuevas capacidades
+- Calidad continua en desarrollo y despliegue
 
-## Propósito tecnológico
+## Objetivo del ecosistema
 
-El ecosistema de software de LIME está orientado a articular investigación, diagnóstico y operación asistencial en una plataforma digital evolutiva, con foco en:
-
-- Interoperabilidad
-- Calidad de datos
-- Seguridad clínica
-- Tiempo de respuesta para la atención en salud
+Construir y mantener una base tecnológica común para acelerar la entrega de soluciones digitales, reducir fricción entre equipos y facilitar la evolución del portafolio de software de LIME.
