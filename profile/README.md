@@ -1,5 +1,7 @@
 # Laboratorios Integrados de Medicina Especializada (UT LIME)
 
+![LIME - Universidad de Antioquia - Hospital Alma Máter](../assets/Logos-PDF-white.png)
+
 LIME (Laboratorios Integrados de Medicina Especializada) surge de la unión entre la **Universidad de Antioquia** y el **Hospital Alma Máter**, consolidando décadas de investigación aplicada para ofrecer diagnósticos innovadores y personalizados.
 
 Como empresa universitaria de base científica y tecnológica, LIME desarrolla productos y servicios orientados a mejorar la atención en salud, especialmente en enfermedades:
@@ -25,33 +27,6 @@ El objetivo es habilitar una arquitectura modular que permita:
 - Integrar procesos de laboratorio y gestión
 - Fortalecer trazabilidad, calidad y oportunidad del dato
 - Acelerar el despliegue de nuevos servicios de salud digital
-
-## Portafolio de plataformas de software
-
-### 1) Sistemas de Laboratorio
-
-Productos orientados a la gestión clínica y diagnóstica.
-
-- **Pathsys** (disponible): gestión integral para procesos de patología y diagnóstico especializado.
-- **Dermopat** (disponible): gestión clínica y diagnóstica para estudios de dermatopatología.
-- **Enterprises** (disponnible): gestión empresarial y administración de entidades vinculadas al laboratorio.
-
-### 2) Sistemas Administrativos
-
-Herramientas para gestión, facturación y operación.
-
-- **Biotech** (disponible): administración de muestras y flujos de trabajo para laboratorios especializados.
-- **Billmed** (próximamente): facturación y gestión financiera de servicios del laboratorio.
-- **Calendary** (próximamente): agendamiento y gestión de citas para servicios del laboratorio.
-- **LivingLab** (disponible): espacio de innovación y experimentación para el desarrollo de soluciones en salud.
-
-### 3) Proyectos Especiales
-
-Iniciativas estratégicas de innovación institucional.
-
-- **Symphony** (disponible): orquestación y gestión integrada de módulos del laboratorio.
-- **PDET** (disponible): gestión y seguimiento de iniciativas estratégicas en territorios priorizados.
-- **ContigoAntioquia** (disponible): seguimiento y vigilancia del estado de salud de la población en Antioquia.
 
 ## Capacidad diagnóstica y respuesta en Covid-19
 
