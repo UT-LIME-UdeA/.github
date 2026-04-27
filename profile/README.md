@@ -17,24 +17,11 @@ Este espacio funciona como punto de referencia para:
 
 ## Portafolio de proyectos de software
 
-### Sistemas de Laboratorio
-
-- **Pathsys**
-- **Dermopat**
-- **Enterprises**
-
-### Sistemas Administrativos
-
-- **Biotech**
-- **Billmed**
-- **Calendary**
-- **LivingLab**
-
-### Proyectos Especiales
-
-- **Symphony**
-- **PDET**
-- **ContigoAntioquia**
+| Línea | Proyecto |
+| --- | --- |
+| Sistemas de Laboratorio | Pathsys, Dermopat, Enterprises |
+| Sistemas Administrativos | Biotech, Billmed, Calendary, LivingLab |
+| Proyectos Especiales | Symphony, PDET, ContigoAntioquia |
 
 ## Enfoque de ingeniería
 
