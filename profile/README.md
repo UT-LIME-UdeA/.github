@@ -40,7 +40,7 @@ Los repositorios son privados. Este perfil describe el portafolio y la forma de 
 | Proyecto | Qué resuelve | Stack | Estado |
 | --- | --- | --- | --- |
 | [SYMPHONY](https://github.com/UT-LIME-UdeA/SYMPHONY) | Plataforma de ingesta y consolidación de datos de los programas de salud pública. Alimenta a CONTIGOANTIOQUIA y PDET, y expone los formularios de FORMS como fuentes de datos. | Next.js · FastAPI · Celery · MySQL | Producción |
-| [FORMS](https://github.com/UT-LIME-UdeA/FORMS) | Gestor de formularios institucionales: constructor visual, publicación, captura de respuestas y analítica. Comparte la base MySQL con SYMPHONY. | Next.js · FastAPI · MySQL | Beta |
+| [FORMS](https://github.com/UT-LIME-UdeA/FORMS) | Gestor de formularios institucionales: constructor visual, publicación, captura de respuestas y analítica. Comparte la base MySQL con SYMPHONY. | Next.js · FastAPI · MySQL | Producción |
 | [CONTIGOANTIOQUIA](https://github.com/UT-LIME-UdeA/CONTIGOANTIOQUIA) | Tablero del programa Contigo Antioquia: capacitaciones, habilitación, SIVIGILA, teleapoyo, soporte y reportes. | Next.js · FastAPI · MySQL | Producción |
 | [PDET](https://github.com/UT-LIME-UdeA/PDET) | Tablero del programa PDET: entidades, municipios, cronograma y telesalud. | Next.js · FastAPI · MySQL | Abandonado |
 | [ENTERPRISE](https://github.com/UT-LIME-UdeA/ENTERPRISE) | Tablero analítico del laboratorio clínico: órdenes, oportunidad, demografía y validadores. | Next.js · FastAPI · MariaDB | Producción |
