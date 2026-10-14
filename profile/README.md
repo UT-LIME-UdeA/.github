@@ -10,7 +10,7 @@
 **Ingeniería de software para la salud, desde la Universidad de Antioquia y el Hospital Alma Máter.**
 
 [![Sitio web](https://img.shields.io/badge/laboratorios--lime.com-1B5E3A?style=for-the-badge&logo=googlechrome&logoColor=white)](https://laboratorios-lime.com)
-[![Contacto](https://img.shields.io/badge/lime%40udea.edu.co-0A66C2?style=for-the-badge&logo=gmail&logoColor=white)](mailto:lime@udea.edu.co)
+[![Contacto](https://img.shields.io/badge/desarrolloti.lime%40udea.edu.co-0A66C2?style=for-the-badge&logo=gmail&logoColor=white)](mailto:desarrolloti.lime@udea.edu.co)
 [![Universidad de Antioquia](https://img.shields.io/badge/Universidad_de_Antioquia-006B3F?style=for-the-badge)](https://www.udea.edu.co)
 
 </div>
@@ -32,16 +32,17 @@ Los repositorios son privados. Este perfil describe el portafolio y la forma de 
 | [PATHSYS](https://github.com/UT-LIME-UdeA/PATHSYS) | Gestión de casos de patología: pacientes, diagnósticos CIE-10/CIE-O, facturación, reportes y API para entidades aliadas. | Next.js · FastAPI · MongoDB | Producción |
 | [DERMOPAT](https://github.com/UT-LIME-UdeA/DERMOPAT) | Gestión de casos de dermatopatología. Misma arquitectura que PATHSYS con flujo propio. | Next.js · FastAPI · MongoDB | Producción |
 | [TELESALUD](https://github.com/UT-LIME-UdeA/TELESALUD) | Plataforma de telesalud: solicitud, triage, teleconsulta por video, historia clínica y seguimiento. | Next.js · FastAPI · MongoDB · Agora | Producción |
-| [NETMEDICA](https://github.com/UT-LIME-UdeA/NETMEDICA) | Historia clínica electrónica para consulta de dermatología: paciente, cita y atención. | Next.js · FastAPI · MongoDB | En desarrollo |
-| [RMFLOW](https://github.com/UT-LIME-UdeA/RMFLOW) | Gestión y control de resonancias magnéticas: casos, radiólogos, convenios y oportunidad. | Next.js · FastAPI · SQLAlchemy | En desarrollo |
+| [FOTODERMA](https://github.com/UT-LIME-UdeA/FOTODERMA) | Historia clínica electrónica para consulta dermatológica presencial: paciente, cita, atención con fotografía clínica, órdenes, fórmulas e incapacidades. | Next.js · FastAPI · MongoDB | En desarrollo |
+| [RMFLOW](https://github.com/UT-LIME-UdeA/RMFLOW) | Gestión y control de resonancias magnéticas: casos, radiólogos, convenios y oportunidad. | Next.js · FastAPI · SQLAlchemy | Abandonado |
 
 ### Plataformas de datos y tableros
 
 | Proyecto | Qué resuelve | Stack | Estado |
 | --- | --- | --- | --- |
-| [SYMPHONY](https://github.com/UT-LIME-UdeA/SYMPHONY) | Plataforma de ingesta y consolidación de datos de los programas de salud pública. Alimenta los tableros. | Next.js · FastAPI · Celery · MySQL | Producción |
-| [CONTIGOANTIOQUIA](https://github.com/UT-LIME-UdeA/CONTIGOANTIOQUIA) | Tablero del programa Contigo Antioquia: capacitaciones, habilitación, SIVIGILA, teleapoyo y reportes. | Next.js · FastAPI · MySQL | Producción |
-| [PDET](https://github.com/UT-LIME-UdeA/PDET) | Tablero del programa PDET: entidades, municipios, cronograma y telesalud. | Next.js · FastAPI · MySQL | Mantenimiento |
+| [SYMPHONY](https://github.com/UT-LIME-UdeA/SYMPHONY) | Plataforma de ingesta y consolidación de datos de los programas de salud pública. Alimenta a CONTIGOANTIOQUIA y PDET, y expone los formularios de FORMS como fuentes de datos. | Next.js · FastAPI · Celery · MySQL | Producción |
+| [FORMS](https://github.com/UT-LIME-UdeA/FORMS) | Gestor de formularios institucionales: constructor visual, publicación, captura de respuestas y analítica. Comparte la base MySQL con SYMPHONY. | Next.js · FastAPI · MySQL | Beta |
+| [CONTIGOANTIOQUIA](https://github.com/UT-LIME-UdeA/CONTIGOANTIOQUIA) | Tablero del programa Contigo Antioquia: capacitaciones, habilitación, SIVIGILA, teleapoyo, soporte y reportes. | Next.js · FastAPI · MySQL | Producción |
+| [PDET](https://github.com/UT-LIME-UdeA/PDET) | Tablero del programa PDET: entidades, municipios, cronograma y telesalud. | Next.js · FastAPI · MySQL | Abandonado |
 | [ENTERPRISE](https://github.com/UT-LIME-UdeA/ENTERPRISE) | Tablero analítico del laboratorio clínico: órdenes, oportunidad, demografía y validadores. | Next.js · FastAPI · MariaDB | Producción |
 
 ### Gestión institucional
@@ -49,7 +50,7 @@ Los repositorios son privados. Este perfil describe el portafolio y la forma de 
 | Proyecto | Qué resuelve | Stack | Estado |
 | --- | --- | --- | --- |
 | [LIME](https://github.com/UT-LIME-UdeA/LIME) | Portal institucional y hub de acceso a las aplicaciones del laboratorio. | React · Vite · FastAPI | Producción |
-| [BIOTECH](https://github.com/UT-LIME-UdeA/BIOTECH) | Inventario y mantenimiento de equipos biomédicos. | Next.js · FastAPI · MongoDB | En desarrollo |
+| [BIOTECH](https://github.com/UT-LIME-UdeA/BIOTECH) | Inventario y mantenimiento de equipos biomédicos. | Next.js · FastAPI · MongoDB | Abandonado |
 
 ## Cómo construimos
 
@@ -69,7 +70,7 @@ Todos los proyectos comparten la misma base tecnológica y la misma estructura, 
 - **Un repositorio por producto**, con `frontend/`, `backend/`, `deploy/` y `docs/` en la raíz.
 - **Frontend** en TypeScript con Next.js o React, Tailwind CSS y organización por módulos de dominio.
 - **Backend** en Python con FastAPI, validación con Pydantic y pruebas automatizadas con pytest.
-- **Datos** en MongoDB Atlas para los sistemas clínicos y MySQL/MariaDB para los tableros.
+- **Datos** en MongoDB Atlas para los sistemas clínicos y MySQL/MariaDB para los tableros y formularios.
 - **Despliegue** en contenedores Docker sobre AWS, con Caddy como proxy inverso y HTTPS automático.
 - **Convenciones**: commits convencionales, documentación técnica y manual de usuario por producto, y puertos de desarrollo local asignados por proyecto para levantar varios sistemas a la vez.
 
